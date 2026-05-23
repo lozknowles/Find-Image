@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local caches and generated outputs
+.cache/
+outputs/
+*.log
+# Editor/temporary duplicate files
+\#*
+
+# Model weights and generated model artifacts
+*.h5
+*.keras
+*.pt
+*.npy
+*.npz
+
+# Local image/video corpus and generated montages
+*.bmp
+*.gif
+*.heic
+*.jpeg
+*.jpg
+*.png
+*.tif
+*.tiff
+*.webp
+*.mp4
+
+# Project data folders
+images/
+images - Copy/
+manually tag/
+processed/
+toprocess/
+training the model/dataset/
+training the model/
+
+# Bundled third-party binaries/tools
+exiftool-12.96_64/
+
+# Local specs/exports
+*.docx
+*.pdf
+*.html
